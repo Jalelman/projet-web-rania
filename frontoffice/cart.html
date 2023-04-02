@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApnaTheatre | Web Series</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <!-- Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Images/Logo/Title.jpeg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="webStyle.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  </head>
+
+<!------------------------Scroll to top button------------------------------------------------>    
+
+  <body style="background-color:black;" color="height:auto;">
+      <div class="scroll-bar">
+      <!-- navbar starts -->
+        
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+          <!-- Container wrapper -->
+          <div class="container-fluid">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">
+              <img src="/frontoffice/Images/Logo/TheaterLogo.PNG" height="70" alt="" loading="lazy" />
+            </a>
+
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <!-- Left links -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="movies.html">Movies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="web-series.html">Web Series</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="kids.html">Kids</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="premium.html">Premium</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contactus.html">Contact Us</a>
+                </li>
+                
+                <li>
+                  <!-- Genre dropdown starts-->
+                  <div>
+                    <div class="dropdown" style="position: relative; display: inline-block; padding-top: 5px; padding-left: 15px;">
+                        <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton" style="font-size:20px;">
+                            Genres
+                        </button>
+                        <div class="dropdown-content" style="color: white;">
+                            <a href="crime.html">Crime</a>
+                            <a href="suspense.html">Suspense & Thriller</a>
+                            <a href="action.html">Action</a>
+                            <a href="fantasy.html">Sci-Fi & Fantasy</a>
+                            <a href="documentary.html">Documentary</a>
+                            <a href="horror.html">Horror</a>
+                            <a href="drama.html">Drama</a>
+                            <a href="war.html">War & Politics</a>
+                            <a href="comedy.html">Comedy</a>
+                            <a href="romance.html">Romance</a>
+                          </div>
+                    </div>
+                  </div>
+                  <!-- Genre dropdown ends-->
+                </li>
+              </ul>
+              <!-- Left links -->
+
+              <!-- Search form -->
+              <form class="d-flex input-group w-auto">
+                <input type="search" class="form-control" placeholder="Type query" aria-label="Search" />
+                <button class="btn btn-outline-primary" type="button" data-mdb-ripple-color="dark" style="padding: .45rem 1.5rem .35rem;">
+                  Search
+                </button>
+              </form>
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a href="#"><img src="bagg.png" alt="shopping bag" width="30" height="30"></a>
+                </li>
+                
+                <!-- Navbar dropdown -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle hidden-arrow" href="#" id="navbarDropdown" role="button"
+                    data-mdb-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-bell"></i>
+                  </a>
+                  <!-- Dropdown menu -->
+                  <ul class="dropdown-menu dropdown-menu-end notifications-list p-1" aria-labelledby="navbarDropdown">
+                    <li>
+                      <div class="row">
+                        <div class="col-md">
+                          <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg" height='63' width='auto'
+                            class="d-block" alt="..." />
+                        </div>
+                        <div class="col-md">
+                          <p class="h6 mb-0">New</p>
+                          <p class="h6 mb-1">Movie title</p>
+                          <span class="small">Today</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-md">
+                          <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(10).jpg" height='63' width='auto'
+                            class="d-block" alt="..." />
+                        </div>
+                        <div class="col-md">
+                          <p class="h6 mb-0">New</p>
+                          <p class="h6 mb-1">Movie title</p>
+                          <span class="small">Today</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-md">
+                          <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(11).jpg" height='63' width='auto'
+                            class="d-block" alt="..." />
+                        </div>
+                        <div class="col-md">
+                          <p class="h6 mb-0">New</p>
+                          <p class="h6 mb-1">Movie title</p>
+                          <span class="small">Today</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-md">
+                          <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(20).jpg" height='63' width='auto'
+                            class="d-block" alt="..." />
+                        </div>
+                        <div class="col-md">
+                          <p class="h6 mb-0">New</p>
+                          <p class="h6 mb-1">Movie title</p>
+                          <span class="small">Today</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-md">
+                          <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(5).jpg" height='63' width='auto'
+                            class="d-block" alt="..." />
+                        </div>
+                        <div class="col-md">
+                          <p class="h6 mb-0">New</p>
+                          <p class="h6 mb-1">Movie title</p>
+                          <span class="small">Today</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-md">
+                          <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg" height='63' width='auto'
+                            class="d-block" alt="..." />
+                        </div>
+                        <div class="col-md">
+                          <p class="h6 mb-0">New</p>
+                          <p class="h6 mb-1">Movie title</p>
+                          <span class="small">Today</span>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                    aria-expanded="false">
+                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(2).jpg" class="rounded-circle img-fluid"
+                      height='25' width='25'>
+                  </a>
+                  <!-- Dropdown menu -->
+                  <ul class="dropdown-menu dropdown-menu-end p-1" aria-labelledby="navbarDropdown">
+                    <li class="my-2 d-flex align-items-center"><img
+                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(4).jpg" class="rounded-circle img-fluid me-1"
+                        height='25' width='25'><span> User 1</span></li>
+                    <li class="my-2 d-flex align-items-center"><img
+                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(6).jpg" class="rounded-circle img-fluid me-1"
+                        height='25' width='25'><span> User 2</span></li>
+                    <li class="my-2 d-flex align-items-center"><img
+                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg" class="rounded-circle img-fluid me-1"
+                        height='25' width='25'><span> User 3</span></li>
+                    <li><a class="dropdown-item" href="#">Manage Profilses</a></li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="#">Your Account</a></li>
+                    <li><a class="dropdown-item" href="#">Help</a></li>
+                    <li><a class="dropdown-item" href="#">Log Out</a></li>
+                  </ul>
+                </li>
+              </ul>
+
+            </div>
+            <!-- Collapsible wrapper -->
+          </div>
+          <!-- Container wrapper -->
+        </nav>
+        <!-- navbar ends -->
+          <div class="main-content" style="margin-top: 50px;">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <img src="./Images/family_man_cover.jpg" height="400" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                          <img src="./Images/sacred_games_cover.jpg" height="400" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                          <img src="./Images/scam_cover.jpg" height="400" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                          <img src="./Images/Asur_cover.png" height="400" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                          <img src="./Images/mirzapur_cover.jpg" height="400" class="d-block w-100" alt="...">
+                      </div>
+                  </div>
+
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </a>
+              </div>
+          </div>
+          <section id="cart" class="section-p1">
+              <table  width="100%">
+                  <thead>
+                      <tr> 
+                          <td>image</td>
+                          <td>Film</td>
+                          <td>location</td>
+                          <td>price</td>
+                          <td>Number of tickets</td>
+                          <td>Subtotal</td>
+                          
+                          <td>Remove</td>
+                      </tr>
+                  </thead>
+                <tbody>
+                  <tr>
+                    <td><img src="./Images/boss-baby.jpg" alt=""></td>
+                    <td>Baby-Boss</td>
+                    <td>
+                      <select name="" id="">
+                        <option value="">Ciné janim</option>
+                        <option value="">Théâtre de la municipalité</option>
+                        <option value="">l'Agora</option>
+                        <option value="">ciné zafir</option>
+                      </select>
+                    </td>
+                    <td>10DT</td>
+                    <td><input type="number" value="1"></td>
+                    <td>10DT</td>
+                    <td><a href="#"></a><i class="far fa-times-circle"></i></a>
+                  </tr>
+                  <tr>
+                    <td><img src="./Images/black mirror.jpg" alt=""></td>
+                    <td>Mirror</td>
+                    <td>
+                      <select name="" id="">
+                        <option value="">Ciné janim</option>
+                        <option value="">Théâtre de la municipalité</option>
+                        <option value="">l'Agora</option>
+                        <option value="">ciné zafir</option>
+                      </select>
+                    </td>
+                    <td>10DT</td>
+                    <td><input type="number" value="1"></td>
+                    <td>10DT</td>
+                    <td><a href="#"></a><i class="far fa-times-circle"></i></a>
+                  </tr>
+                  <tr>
+                    <td><img src="./Images/criminal.jpg" alt=""></td>
+                    <td>Criminal</td>
+                    <td>
+                      <select name="" id="">
+                        <option value="">Ciné janim</option>
+                        <option value="">Théâtre de la municipalité</option>
+                        <option value="">l'Agora</option>
+                        <option value="">ciné zafir</option>
+                      </select>
+                    </td>
+                    <td>10DT</td>
+                    <td><input type="number" value="1"></td>
+                    <td>10DT</td>
+                    <td><a href="#"></a><i class="far fa-times-circle"></i></a>
+                  </tr>
+                </tbody>
+              </table>
+          </section>
+          <section id="cart-add" class="section-p1">
+              <center>
+                <div id="coupon">
+                  <input type="text" placeholder="Enter your coupon">
+                  <button class="normal"> Apply </button> 
+                </div>
+              </center>
+              <div id="Subtotal">
+                <h3>Cart Totals</h3>
+                  <table>
+                      <tr>
+                          <td>Subtotal</td>
+                          <td>30DT </td>
+                      </tr>
+                      <tr>
+                          <td><strong>Total</strong></td>
+                          <td><strong>30DT</strong></td>
+                      </tr>
+                  </table>
+                  <center><button class="normal">Proceed to checkout</button></center>
+              </div>
+          </section>
+      <!-------------------------------Footer-------------------------------->
+      <footer class="footer">
+          <hr class="footer-hr">
+          <div class="footer-content">
+              <div class="footer-left">
+                  <a href="home.html"><img class="footer-logo" src="Images/TheaterLogoFinal.png" alt="" width="30" height="24"></a>
+                  <p class="footer-bottom-tagline">Watch! Chill! Repeat!</p>
+              </div>
+              <div class="footer-middle">
+                  <h2 class="footer-heading">Follow Us</h2>
+                  <ul class="footer-middle-list icons">
+                      <a class="footer-links" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f facebook" style="color:red"></i></a>
+                      <a class="footer-links" href="https://twitter.com/login?lang=en" target="_blank"><i class="fab fa-twitter twitter" style="color:red"></i></a>
+                      <a class="footer-links" href="https://www.linkedin.com/login" target="_blank"><i class="fab fa-linkedin linkedin" style="color:red"></i></a>
+                      <a class="footer-links" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram instagram" style="color:red"></i></a>
+                      <a class="footer-links" href="https://github.com/QAZIMAAZARSHAD/Movie-Streaming-Website" target="_blank"><i class="fab fa-github github" style="color:red"></i></a>
+                  </ul>
+              </div>
+              <div class="footer-middle">
+                  <h2 class="footer-heading">Services</h2>
+                  <ul class="footer-middle-list">
+                      <li class="footer-middle-list-item"><a href="home.html">Enjoy Latest Movies</a> </li>
+                      <li class="footer-middle-list-item"><a href="web-series.html">Watch Web-Series</a> </li>
+                      <li class="footer-middle-list-item"><a href="kids.html">Everything for Kids</a> </li>
+                      <li class="footer-middle-list-item"><a href="news.html">Coming soon</a> </li>
+                      <li class="footer-middle-list-item"><a href="premium.html">Get Premium Subscription</a> </li>
+                      <li class="footer-middle-list-item"><a href="faq.html">FAQ</a> </li>
+                  </ul>
+              </div>
+              <div class="footer-middle">
+                  <h2 class="footer-heading">Try Our App</h2>
+                  <ul class="footer-middle-list icons">
+                      <a class="footer-links" href="#"><i class="fab fa-google-play" style="color:red"></i></a>
+                      <a class="footer-links" href="#"><i class="fab fa-app-store-ios" style="color:red"></i></a>
+                  </ul>
+              </div>
+              <div class="footer-right">
+                  <p class="footer-links">
+                      <h2 class="footer-heading">Contact Us</h2>
+                      <p class="footer-bottom-tagline">Feel free to contact us.</p>
+                      <a class="footer-contact-button" href="contactus.html">Contact</a>
+                  </p>
+              </div>
+          </div>
+          <hr class="footer-hr">
+          <div class="footer-copyright">
+              <p>Copyright &copy; and &reg; Since
+                  <script>
+                      document.write(new Date().getFullYear())
+                  </script> Under ApnaTheatre.com : (Project Is Done By Qazi Maaz Arshad)</p>
+          </div>
+      </footer>
+
+  <!----------------------scroll back to top button-->
+  <button  id="scrollToTopButton" title="Go to top" class="ml-5" >
+      <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+    </button>
+    <script>
+    $(document).ready(function(){
+      var scrollTopButton = document.getElementById("scrollToTopButton");
+      window.onscroll = function () { scrollFunction() };
+
+      function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        scrollTopButton.style.display = "block";
+      } else {
+        scrollTopButton.style.display = "none";
+      }
+    }
+
+    $("#scrollToTopButton").click(function(){
+    $('html ,body').animate({scrollTop : 0},800)
+    });
+    });
+    </script>
+  <script>
+  function logout(){
+  window.location.replace("login.html");
+  }
+  </script>
+  <!-- offcanva JS and footer js -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="https://daniellaharel.com/raindrops/js/raindrops.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="js/main-min.js"></script>
+  <script>
+      jQuery('#waterdrop').raindrops({
+          color: '#292c2f',
+          canvasHeight: 150,
+          density: 0.1,
+          frequency: 20
+      });
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script src="./static/script.js"></script>
+  </body>
+
+</html>
